@@ -7,6 +7,7 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     steps:
+      # can remove step action/checkout since build-push-action will checkout git as well
       # - name: Checkout code
       #   uses: actions/checkout@v2
       - name: Login to GitHub Container Registry
